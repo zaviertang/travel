@@ -1,6 +1,6 @@
 # travel
 
-> A Vue.js project
+> 实战学习VueJs写的小项目（模仿去哪儿页面）
 
 ## Build Setup
 
