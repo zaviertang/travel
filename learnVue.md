@@ -1,5 +1,5 @@
 # learnVue 
-> It's my VueJs.
+> 实战学习Vue的小项目（模仿去哪儿页面）
 
 <br>
 
@@ -107,8 +107,8 @@
     * 使用 ` @ ` 指向 **src** 目录
     * 在 **bulid** 目录下的 **webpack.base.conf.js** 文件里修改 `alias` ，设置经常要使用的目录的别名  
     * 修改了配置文件后要重启服务器 `npm run start` 
-### 7-2 首页轮播图
-* 创建 git 分支
+### 7-3 首页轮播图
+* 创建 git 分支 **index-swiper**
 * 线上分支拉到本地
     * `git pull`  
     * `git checkout index-swiper`  
@@ -138,3 +138,30 @@
         * `git checkout master` ，切换到 **master**  
         * `git merge origin/index-swiper` 把线上的 **index-swiper** 分支合并到本地的 **master** 分支  
         * `git push` 提交本地合并后的 **master** 分支  
+### 7-4 图标区域页面布局
+* 创建 git 分支 **index-icons**
+* 
+### 7-5 图标区域逻辑实现
+* 使用计算属性 **computed** 对 **iconList** 的数据循环
+    ```
+    computed: {
+      pages () {
+        const pages = []
+        this.iconList.forEach((item, index) => {
+          const page = Math.floor(index / 8)
+          if (!pages[page]) {
+            pages[page] = []
+          }
+          pages[page].push(item)
+        })
+        return pages
+      }
+    }
+    ```
+* 使用 **Vue.js devtools** 插件
+* **ellipsis()**
+    ```
+    overflow: hidden
+    white-space: nowrap
+    text-overflow: ellipsis
+    ```
