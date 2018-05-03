@@ -168,4 +168,11 @@
 ### 7-6 推荐组件开发
 * ... ...  
 ### 7-7 周末游组件开发
-
+* ... ...  
+### 7-8
+* **axios**
+* **mounted**
+* 在 **static** 创建 **mock** 文件夹，在 **mock** 下面创建 **index.json**
+* 只有 **static** 静态资源才能被访问
+* **.gitignore**
+* **config/index.js** 配置 **proxyTable**
