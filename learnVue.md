@@ -165,7 +165,7 @@
     white-space: nowrap
     text-overflow: ellipsis
     ```
-<<<<<<< HEAD:learnVUe.md
-### 推荐组件开发
-=======
->>>>>>> 3323b4502f282c6ee024d774f3c536e325f03b13:learnVue.md
+### 7-6 推荐组件开发
+* ... ...  
+### 7-7 周末游组件开发
+
