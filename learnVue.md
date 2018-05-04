@@ -176,3 +176,4 @@
 * 只有 **static** 静态资源才能被访问
 * **.gitignore**
 * **config/index.js** 配置 **proxyTable**
+### 7-9 城市选择页面路由配置
