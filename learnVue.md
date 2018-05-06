@@ -177,3 +177,6 @@
 * **.gitignore**
 * **config/index.js** 配置 **proxyTable**
 ### 7-9 城市选择页面路由配置
+
+### 8-7 
+* 代码优化
