@@ -5,7 +5,7 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 static/mock
-learnVue.md
+./learnVue.md
 
 # Editor directories and files
 .idea
