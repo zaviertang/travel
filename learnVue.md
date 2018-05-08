@@ -143,7 +143,7 @@
 * 
 ### 7-5 图标区域逻辑实现
 * 使用计算属性 **computed** 对 **iconList** 的数据循环
-    ```
+    ```javascript
     computed: {
       pages () {
         const pages = []
@@ -160,7 +160,7 @@
     ```
 * 使用 **Vue.js devtools** 插件
 * **ellipsis()**
-    ```
+    ```css
     overflow: hidden
     white-space: nowrap
     text-overflow: ellipsis
@@ -181,4 +181,4 @@
 ### 8-7 
 * 代码优化
 
-## 8jij
+### 8-9 使用 **Vuex** 实现数据共享
