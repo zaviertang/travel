@@ -18,7 +18,7 @@
 
 <script>
 export default {
-  name: 'Detail-List',
+  name: 'DetailList',
   props: {
     list: Array
   }
