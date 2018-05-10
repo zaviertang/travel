@@ -29,7 +29,7 @@ export default {
     return {
       showGallary: false,
       imgs: ['http://img1.qunarzz.com/sight/p0/1411/1a/5582f9f24bc50b475a8cbda4c5ac8d24.water.jpg_r_800x800_e9fe596b.jpg',
-          'http://img1.qunarzz.com/sight/p0/1505/10/100d2e82848fb2.water.jpg_r_800x800_5b03aa73.jpg']
+        'http://img1.qunarzz.com/sight/p0/1505/10/100d2e82848fb2.water.jpg_r_800x800_5b03aa73.jpg']
     }
   },
   methods: {
