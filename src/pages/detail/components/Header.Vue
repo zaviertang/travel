@@ -5,14 +5,14 @@
       to="/"
       class="header-abs"
       v-show="showAbs"
-      :style="opacityFixedStyle"
+      :style="opacityAbsStyle"
     >
       <div class="iconfont head-back header-abs-back">&#xe624;</div>
     </router-link>
     <div
       class="header-fixed"
       v-show="!showAbs"
-      :style="opacityStyle"
+      :style="opacityFixedStyle"
     >
       景点详情
       <router-link to="/">
@@ -28,10 +28,10 @@ export default {
   data () {
     return {
       showAbs: true,
-      opacityStyle: {
+      opacityFixedStyle: {
         opacity: 0
       },
-      opacityFixedStyle: {
+      opacityAbsStyle: {
         opacity: 1
       }
     }
@@ -42,12 +42,12 @@ export default {
       if (top > 60) {
         let opacity = (top - 60) / 80
         opacity = opacity > 1 ? 1 : opacity
-        this.opacityStyle = { opacity }
+        this.opacityFixedStyle = { opacity }
         this.showAbs = false
       } else {
         let opacity = (60 - top) / 60
         opacity = opacity < 0.5 ? 0.5 : opacity
-        this.opacityFixedStyle = { opacity }
+        this.opacityAbsStyle = { opacity }
         this.showAbs = true
       }
     }
@@ -64,7 +64,7 @@ export default {
 <style lang="stylus" scoped>
   @import '~styles/varibles.styl'
   .header-abs
-    position: fixed
+    position: absolute
     left: 10px
     top: 10px
     width: 40px
